@@ -10,7 +10,12 @@
 
 <body>
     <div>
-        <h1>Blog</h1>
+        <div class="d-flex justify-content-between">
+            <h1>Blog</h1>
+            <div>
+                <a href="{{ route('login')}}">Login AdminPanel</a>
+            </div>
+        </div>
         <div>
             <h3>Articles </h3>
         </div>

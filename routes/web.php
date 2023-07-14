@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/login', function () {
+    return view('welcome');
+})->name('login');
 Route::get('/', [ArticleController::class, 'viewHome'])->name('viewHome');
 
 Route::get('/dashboard', function () {
